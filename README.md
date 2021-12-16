@@ -1,7 +1,7 @@
 # xmr-earning-calc
-Calculates XMR/Monero mining earnings based on hashrate. Accepts hashrate in h/s, kh/s, mh/s, gh/s, th/s, ph/s, zh/s, yh/s
+Calculates XMR/Monero mining earnings based on hashrate. Accepts hashrate in `h/s`, `kh/s`, `mh/s`, `gh/s`, `th/s`, `ph/s`, `zh/s`, `yh/s`
 
-Functions within calculateXMRbyHashrate.py are made with compatibility with other programs in mind, with the only complication I can foresee being getNetworkHashrate() returning a
+Functions within `calculateXMRbyHashrate.py` are made with compatibility with other programs in mind, with the only complication I can foresee being getNetworkHashrate() returning a
 simplified hashrate value by using simplifyHashrate()
 
 ## simplifyHashrate(`hashrate`)
